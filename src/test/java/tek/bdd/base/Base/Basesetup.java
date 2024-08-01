@@ -16,6 +16,7 @@ public class Basesetup {
             WebDriver driver = new ChromeDriver();
             driver.get("https://retail.tekschool-students.com/");
             driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(10);
 
 
         }
